@@ -1,0 +1,18 @@
+body.night {
+    background-color: black;
+}
+
+body.toggleable.night {
+    background: black;
+}
+
+*.toggleable.night {
+    color: white;
+}
+
+p.toggleable #coloredword {
+    color: red;
+}
+p.toggleable.night #coloredword {
+    color: blue;
+}
